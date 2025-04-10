@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date:10.04.2025
+## Register Number:212224040289
+## Name: k.sanjeevpriya
 ## Problem Title
 SIH 1653: Web based Selector-Applicant Simulation Software
 ## Problem Description
@@ -11,16 +11,54 @@ Background: Recruitment and Assessment Centre (RAC) under DRDO, Ministry of Defe
 Ministry of Defence
 
 ## Idea
+Most Recent Data Collection: October 2023 – Smart Interviewing Simulation Interface
 
+This simulates a board room environment (either video/avatar-based or hybrid).
+
+Starts with ice-breaking questions to ease the candidate.
+
+Centralization around issue- and techno-managerial questions, customized based on level/post applied.
+
+FAQ-Gen: Domain-Aware Dynamic Question Generator
+
+L1 uses NLP and machine learning to analyze CV, area of expertise, and advertised job description.
+
+Backed up by a ranking of questions by relevance and difficulty, auto-generates.
+
+Supports a variety of scientific fields (aerospace, AI, cyber, propulsion, electronics, etc.).
+Real-Time 
 
 ## Proposed Solution / Architecture Diagram
 
 
+![Screenshot 2025-04-10 201055](https://github.com/user-attachments/assets/3f399660-debe-490c-bf5e-6ec9b9443e5d)
+
+
+
+
 ## Use Cases
+
+![Screenshot 2025-04-10 201307](https://github.com/user-attachments/assets/1b077994-a692-4302-a784-db423181ba79)
+
 
 
 ## Technology Stack
+1.Frontend – React.js/Angular for UI, WebRTC for video conferencing.
+
+2.Backend – Node.js/Django for APIs, WebSockets for real-time communication.
+
+3'Database – PostgreSQL for structured data, MongoDB for unstructured data.
+
+4.AI & NLP – GPT/BERT for question analysis, Google Speech-to-Text for voice processing.
 
 
-## Dependencies
+## De1.Cloud & Hosting – AWS/Google Cloud for scalable deployment.
+1.Cloud & Hosting – AWS/Google Cloud for scalable deployment.
+
+2.Security – OAuth 2.0, JWT for authentication, AES-256 for encryption.
+
+3.Analytics – ELK Stack/Grafana for system monitoring.
+
+4.Integration – Zoom SDK/Jitsi for video calls, Firebase for notifications.
+
 
